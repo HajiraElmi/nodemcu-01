@@ -1,5 +1,5 @@
-# nodemcu-01
-Hajira Elmi 
+# nodemcu-01 Hajira Elmi 
+
 ## Introduktion
 Projektet går ut på att en inbyggda LED-lampa ska blinka på en NodeMCU. 
 Programeringen sker via Arduino IDE. 
