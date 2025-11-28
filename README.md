@@ -3,8 +3,8 @@
 ## Introduktion
 Projektet går ut på att en inbyggda LED-lampa ska blinka på en NodeMCU. 
 Programeringen sker via Arduino IDE. 
-### Vad är NodeMCU?
-NodeMCU fungerar som en minidator, du kan programmera det så att den styr saker, till exempel en lampa eller sensor.Den har också wifi och kan kopplas till internet. Det kan programmeras med Arduino IDE. 
+### Vad är Mikroprocessor?
+Mikroprocessor fungerar som en minidator, du kan programmera det så att den styr saker, till exempel en lampa eller sensor.Den har också wifi och kan kopplas till internet. Det kan programmeras med Arduino IDE. 
 
 ### Hur fungerar Arduino IDE programmet? 
 
@@ -19,6 +19,7 @@ Arduino programmet består av två delar.
 #### Portinitialisering
 För att använda LED-lampan på NodeMCU måste du ställa in pinnen som utgång. 
  pinMode(LED_BUILTIN, OUTPUT);
+
 ##### Kod exempel
 
 the setup function runs once when you press reset or power the board
@@ -41,4 +42,4 @@ void loop() {
   
 }
 
-Det som händer här är att lED-lampan tänds i 1 sekund, släcks i 1 sekund, och försätter så i en loop.
+Det som händer här är att lED-lampan tänds i 1 sekund, släcks i 1 sekund, och försätter i en loop.
