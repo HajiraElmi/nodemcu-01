@@ -4,9 +4,9 @@
 Projektet går ut på att en inbyggda LED-lampa ska blinka på en NodeMCU. 
 Programeringen sker via Arduino IDE. 
 ### Vad är NodeMCU?
-NodeMCU fungerar som en minidator, du kan programmera det så att den styr saker, till exempel en lampa eller sensor.Den har också wifi och kan kopplas till internet. Det kan programmeras med Arudino IDE. 
+NodeMCU fungerar som en minidator, du kan programmera det så att den styr saker, till exempel en lampa eller sensor.Den har också wifi och kan kopplas till internet. Det kan programmeras med Arduino IDE. 
 
-### Hur fungerar Arudino IDE programmet? 
+### Hur fungerar Arduino IDE programmet? 
 
 Arduino programmet består av två delar. 
 **setup()** 
